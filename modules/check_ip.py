@@ -10,6 +10,3 @@ def validates_ip(ip):
             else:
                 continue
         return True
-© 2022 GitHub, Inc.
-Terms
-P
