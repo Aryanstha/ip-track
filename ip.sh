@@ -16,17 +16,17 @@ printf "\e[1;94m   \__|IIIIII|__/    \e[0m\e[1;94m              \e[0m\n"
 printf "\e[1;94m    | \IIIIII/ |     \e[0m\e[1;94m              \e[0m\n"
 printf "\e[1;94m    \__________/     \e[0m\e[1;94m              \e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[1;91m    Created By Aryan \e[0m\e[1;31m(\e[0m\e[1;91m Arniko Research Lab \e[0m\e[1;31m)\e[0m\n"
+printf "\e[0m\e[1;91m    Created By Aryan \e[0m\e[1;91m(\e[0m\e[1;91m Arniko Research Lab \e[0m\e[1;91m)\e[0m\n"
 
 }
 
 menu() {
 printf "\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;91m My IP\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;91m Track Ip\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;91m Exit\e[0m\n"
+printf "\e[0m\e[1;91m  [\e[0m\e[1;37m01\e[0m\e[1;91m]\e[0m\e[1;91m My IP\e[0m\n"
+printf "\e[0m\e[1;91m  [\e[0m\e[1;37m02\e[0m\e[1;91m]\e[0m\e[1;91m Track Ip\e[0m\n"
+printf "\e[0m\e[1;91m  [\e[0m\e[1;37m00\e[0m\e[1;91m]\e[0m\e[1;91m Exit\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Select An Option \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
+read -p $'  \e[1;91m[\e[0m\e[1;37m~\e[0m\e[1;91m]\e[0m\e[1;92m Select An Option \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
 
 if [[ $option == 1 || $option == 01 ]]; then
 myipaddr
@@ -92,7 +92,7 @@ printf "\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit1
+read -p $'  \e[1;91m>>\e[0m\e[1;96m  \en' mainorexit1
 
 if [[ $mainorexit1 == 1 || $mainorexit1 == 01 ]]; then
 banner
@@ -117,7 +117,7 @@ banner
 printf "\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Input IP Address \e[0m\e[1;96m: \e[0m\e[1;93m\en' useripaddress
+read -p $'  \e[1;91m[\e[0m\e[1;37m~\e[0m\e[1;91m]\e[0m\e[1;92m Input IP Address \e[0m\e[1;96m: \e[0m\e[1;93m\en' useripaddress
 
 ipaddripapico=$(curl -s "https://ipapi.co/$useripaddress/json" -L)
 ipaddripapicom=$(curl -s "http://ip-api.com/json/$useripaddress" -L)
@@ -163,7 +163,7 @@ printf "\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
 printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit2
+read -p $'  \e[1;91m>>\e[0m\e[1;96m  \en' mainorexit2
 
 if [[ $mainorexit2 == 1 || $mainorexit2 == 01 ]]; then
 banner
