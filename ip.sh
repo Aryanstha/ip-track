@@ -4,27 +4,27 @@ banner() {
 
 clear
 printf "\e[0m\n"
-printf "\e[1;33m       ______             \e[0m\e[1;32m  _____       \e[0m\n"
-printf "\e[1;33m    .-"      "-.          \e[0m\e[1;32m |_   _|      \e[0m\n"
-printf "\e[1;33m   /            \         \e[0m\e[1;32m   | |  _ __  \e[0m\n"
-printf "\e[1;33m  |              |        \e[0m\e[1;32m   | | |  _ \ \e[0m\n"
-printf "\e[1;33m  |,  .-.  .-.  ,|        \e[0m\e[1;32m  _| |_| |_) |\e[0m\n"
-printf "\e[1;33m  | )(__/  \__)( |        \e[0m\e[1;32m |_____| .__/ \e[0m\n"
-printf "\e[1;32m  |/     /\     \|        \e[0m\e[1;32m       | |    \e[0m\n"
-printf "\e[1;32m  (_     ^^     _)        \e[0m\e[1;32m       |_|    \e[0m\n"
-printf "\e[1;32m   \__|IIIIII|__/    \e[0m\e[1;32m              \e[0m\n"
-printf "\e[1;32m    | \IIIIII/ |     \e[0m\e[1;32m              \e[0m\n"
-printf "\e[1;32m    \__________/     \e[0m\e[1;32m              \e[0m\n"
+printf "\e[1;91m       ______             \e[0m\e[1;94m  _____       \e[0m\n"
+printf "\e[1;91m    .-"      "-.          \e[0m\e[1;94m |_   _|      \e[0m\n"
+printf "\e[1;91m   /            \         \e[0m\e[1;94m   | |  _ __  \e[0m\n"
+printf "\e[1;91m  |              |        \e[0m\e[1;94m   | | |  _ \ \e[0m\n"
+printf "\e[1;91m  |,  .-.  .-.  ,|        \e[0m\e[1;94m  _| |_| |_) |\e[0m\n"
+printf "\e[1;91m  | )(__/  \__)( |        \e[0m\e[1;94m |_____| .__/ \e[0m\n"
+printf "\e[1;94m  |/     /\     \|        \e[0m\e[1;94m       | |    \e[0m\n"
+printf "\e[1;94m  (_     ^^     _)        \e[0m\e[1;94m       |_|    \e[0m\n"
+printf "\e[1;94m   \__|IIIIII|__/    \e[0m\e[1;94m              \e[0m\n"
+printf "\e[1;94m    | \IIIIII/ |     \e[0m\e[1;94m              \e[0m\n"
+printf "\e[1;94m    \__________/     \e[0m\e[1;94m              \e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[1;33m    Created By Aryan \e[0m\e[1;31m(\e[0m\e[1;33m Arniko Research Lab \e[0m\e[1;31m)\e[0m\n"
+printf "\e[0m\e[1;91m    Created By Aryan \e[0m\e[1;31m(\e[0m\e[1;91m Arniko Research Lab \e[0m\e[1;31m)\e[0m\n"
 
 }
 
 menu() {
 printf "\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m My IP\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;33m Track Ip\e[0m\n"
-printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;33m Exit\e[0m\n"
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;91m My IP\e[0m\n"
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;91m Track Ip\e[0m\n"
+printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;91m Exit\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Select An Option \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
 
